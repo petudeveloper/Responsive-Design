@@ -5,7 +5,7 @@
 
 > In this project, we will replicate the archived version of the website The Next Web.
 
-![screenshot](https://github.com/petumazo/Responsive-Design/blob/html-structure-and-responsive-css/Img/project-screenshot.png)
+![screenshot](Responsive-Design/Img/project-screenshot.png)
 
 ## Built With
 
