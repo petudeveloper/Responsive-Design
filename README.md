@@ -5,7 +5,7 @@
 
 > In this project, we will replicate the archived version of the website The Next Web.
 
-![screenshot](Responsive-Design/Img/project-screenshot.png)
+![screenshot](/Responsive-Design/Img/project-screenshot.png)
 
 ## Built With
 
