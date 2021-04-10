@@ -74,6 +74,17 @@ header {
   align-items: center;
 }
 
+#all-menu {
+  background: linear-gradient(to bottom right, #c09, #f42 85%);
+  flex-direction: column;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  color: white;
+  display: none;
+}
+
 #hover-menu {
   color: #f42;
   font-size: 1.3rem;
@@ -107,6 +118,18 @@ header {
   padding: 20px;
   justify-content: space-between;
   margin-right: 50px;
+}
+
+#nav-sections-container {
+  padding: 20px;
+  border-top: solid 1px #bfbfbf;
+  justify-content: space-around;
+}
+
+.item-sections {
+  margin-top: 7px;
+  color: hsla(0, 0%, 100%, 0.6);
+  cursor: pointer;
 }
 
 #small-screen-hidden,
@@ -148,6 +171,10 @@ header {
 }
 
 #tnw-highlight {
+  display: none;
+}
+
+#data-text {
   display: none;
 }
 
@@ -229,6 +256,11 @@ header {
   color: #aaa;
 }
 
+.text-footer-crossed a {
+  cursor: pointer;
+  color: #aaa;
+}
+
 .text-footer a:hover {
   color: #444;
 }
@@ -255,6 +287,10 @@ header {
   display: none;
 }
 
+.text-footer-crossed a:hover {
+  color: #444;
+}
+
 #footer-menu a {
   color: #aaa;
   text-decoration: none;
@@ -275,6 +311,17 @@ header {
   color: white;
   padding: 10px 16px;
   font-size: 20px;
+}
+
+.background-info-hf h3 {
+  font-size: 1.4em;
+}
+
+.deals-description h3 {
+  font-family: sans-serif;
+  font-size: 14px;
+  padding: 0 5px 5px 10px;
+  cursor: pointer;
 }
 
 .newsDescription h3:hover {
@@ -313,6 +360,12 @@ header {
   color: #555;
 }
 
+.background-info-hf span {
+  padding: 10px 0;
+  font-size: 0.9em;
+  color: #aaa;
+}
+
 .single-lef-intereactions span:hover {
   color: #000;
 }
@@ -329,6 +382,228 @@ header {
 }
 
 /* END Lates founding */
+
+/* START hard fork */
+
+#hard-fork {
+  padding: 10px 0 24px;
+  margin: 0 15px;
+}
+
+#hard-fork-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(9, 1fr);
+  gap: 20px;
+}
+
+#background-single-hf-1 {
+  background: linear-gradient(#ffffff23, #000), url(../Img/background-single-hf-1.jpg) no-repeat center center / cover;
+}
+
+#background-single-hf-2 {
+  background: linear-gradient(#ffffff23, #000), url(../Img/background-single-hf-2.jpg) no-repeat center center / cover;
+}
+
+#background-single-hf-3 {
+  background: linear-gradient(#ffffff23, #000), url(../Img/background-single-hf-3.jpg) no-repeat center center / cover;
+}
+
+#background-single-hf-4 {
+  background: linear-gradient(#ffffff23, #000), url(../Img/background-single-hf-4.jpg) no-repeat center center / cover;
+}
+
+#background-single-hf-5 {
+  background: linear-gradient(#ffffff23, #000), url(../Img/background-single-hf-5.jpg) no-repeat center center / cover;
+}
+
+#background-single-hf-6 {
+  background: linear-gradient(#ffffff23, #000), url(../Img/background-single-hf-6.jpg) no-repeat center center / cover;
+}
+
+#background-single-hf-7 {
+  background: linear-gradient(#ffffff23, #000), url(../Img/background-single-hf-7.jpg) no-repeat center center / cover;
+}
+
+#background-single-hf-8 {
+  background: linear-gradient(#ffffff23, #000), url(../Img/background-single-hf-8.jpg) no-repeat center center / cover;
+}
+
+#background-single-hf-9 {
+  background: linear-gradient(#ffffff23, #000), url(../Img/background-single-hf-9.jpg) no-repeat center center / cover;
+}
+
+.background-info-hf {
+  color: white;
+  height: 100%;
+  font-size: 1em;
+  padding: 0 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.background-info-hf h5 {
+  margin-bottom: 0;
+}
+
+.img-header-hf {
+  height: 96px;
+  width: 96px;
+  margin-right: 10px;
+}
+
+#image-header-hf-1 {
+  background: url(../Img/hard-fork-img-1.jpg) no-repeat center center / cover;
+}
+
+#image-header-hf-2 {
+  background: url(../Img/hard-fork-img-2.jpg) no-repeat center center / cover;
+}
+
+#image-header-hf-3 {
+  background: url(../Img/hard-fork-img-3.jpg) no-repeat center center / cover;
+}
+
+#image-header-hf-4 {
+  background: url(../Img/hard-fork-img-4.jpg) no-repeat center center / cover;
+}
+
+#image-header-hf-5 {
+  background: url(../Img/hard-fork-img-5.jpg) no-repeat center center / cover;
+}
+
+#image-header-hf-6 {
+  background: url(../Img/hard-fork-img-6.jpg) no-repeat center center / cover;
+}
+
+#image-header-hf-7 {
+  background: url(../Img/hard-fork-img-7.jpg) no-repeat center center / cover;
+}
+
+#image-header-hf-8 {
+  background: url(../Img/hard-fork-img-8.jpg) no-repeat center center / cover;
+}
+
+#image-header-hf-9 {
+  background: url(../Img/hard-fork-img-9.jpg) no-repeat center center / cover;
+}
+
+.main-header-single-hf {
+  float: left;
+  width: 100%;
+  justify-content: space-between;
+  background-color: rgba(255, 68, 34, 0.06);
+  padding-top: 2px;
+  padding-left: 10px;
+  color: #f42;
+  margin-bottom: 10px;
+}
+
+.info-header-hf {
+  font-size: 1.1em;
+}
+
+.info-header-hf h5 {
+  margin: 10px 0;
+}
+
+.info-header-hf h4:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.li-hf {
+  color: #f42;
+  list-style-type: disc;
+  margin-left: 25px;
+  padding: 5px 0;
+  border-bottom: solid 1px #eee;
+}
+
+.elemnt-li-hf {
+  color: #555;
+  font-size: 13px;
+}
+
+.elemnt-li-hf:hover {
+  color: black;
+}
+
+.single-hard-fork {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.2fr 4fr 1fr 1.5fr;
+}
+
+/* END hard fork */
+
+/* START latest deals */
+
+.latest-deals {
+  padding: 10px 0 24px;
+  gap: 15px;
+  margin: 10px 15px 100px 15px;
+}
+
+.deals-tittle {
+  font-size: 28px;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #f42;
+}
+
+.deals-tittle:hover {
+  color: black;
+  cursor: pointer;
+}
+
+#see-all {
+  display: inline-flex;
+}
+
+#see-all h4 {
+  align-self: center;
+  font-size: 14px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  position: absolute;
+  right: 20px;
+  color: #f42;
+}
+
+#see-all h4:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.imageContainerDeals img {
+  width: 75px;
+  height: 75px;
+  cursor: pointer;
+  padding-bottom: 5px;
+}
+
+.single-deal-news {
+  display: flex;
+  padding: 5px;
+}
+
+.price {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #555;
+}
+
+.text-footer-crossed {
+  font-size: 12px;
+  padding-left: 10px;
+  color: #aaa;
+  text-decoration-line: line-through;
+}
+
+/* END latest deals */
 
 /* START footer */
 
@@ -401,7 +676,7 @@ button:hover {
 
 /* For TABLET */
 
-@media (min-width: 778px) {
+@media (min-width: 768px) {
   /* START navbar */
 
   header {
@@ -594,6 +869,52 @@ button:hover {
 
   /* END Lates founding */
 
+  /* START hard fork */
+
+  #hard-fork-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-row: auto;
+  }
+
+  .image-header-hf {
+    height: auto;
+  }
+
+  .single-hard-fork {
+    grid-template-rows: 0.2fr 2.8fr 1fr 1.5fr;
+  }
+
+  /* END hard fork */
+
+  /* START latest deals */
+
+  #latest-deals-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    row-gap: 15px;
+  }
+
+  .single-deal-news {
+    flex-direction: column;
+  }
+
+  .imageContainerDeals img {
+    width: 100%;
+    height: auto;
+  }
+
+  .deals-description {
+    padding-top: 10px;
+  }
+
+  #see-all h4 {
+    font-size: 16px;
+  }
+
+  /* END latest deals */
+
   /* START footer */
 
   .break {
@@ -732,6 +1053,47 @@ button:hover {
   }
 
   /* END Latest Founding */
+
+  /* START hard fork */
+  #hard-fork-grid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  .single-hard-fork {
+    grid-template-rows: 1fr 8fr 3fr 6fr;
+  }
+
+  /* END hard fork */
+
+  /* START latest deals */
+
+  .latest-deals {
+    padding: 0 40px;
+  }
+
+  #latest-deals-grid {
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 15px;
+    row-gap: 15px;
+  }
+
+  #see-all h4 {
+    font-size: 18px;
+    right: 60px;
+  }
+
+  .deals-description h3 {
+    font-size: 16px;
+  }
+
+  .price {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #555;
+  }
+
+  /* END latest deals */
 
   /* START footer */
 
